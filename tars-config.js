@@ -28,7 +28,7 @@ module.exports = {
     svg: {
         active: true,
         // symbols, sprite
-        workflow: 'sprite',
+        workflow: 'symbols',
         symbolsConfig: {
             // separate-file, separate-file-with-link, inject
             loadingType: 'inject',
@@ -234,7 +234,7 @@ module.exports = {
      * .sass extension is supported if cssPreprocessor is 'scss'
      * @type {String}
      */
-    cssPreprocessor: 'scss',
+    cssPreprocessor: 'sass',
 
     /**
      * What kind of size of images are you going to use.
